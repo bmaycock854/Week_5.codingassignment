@@ -7,12 +7,10 @@ public class week005 {
 	        void error(String message);
 	    }
 
-	    public static class ConcreteAsteriskLogger extends AsteriskLogger {
-	        // Concrete implementation if needed
+	    public static class ConcreteAsteriskLogger extends AsteriskLogger{
 	    }
 
 	    public static class ConcreteSpacedLogger extends SpacedLogger {
-	        // Concrete implementation if needed
 	    }
 
 	    public abstract static class AsteriskLogger implements Logger {
